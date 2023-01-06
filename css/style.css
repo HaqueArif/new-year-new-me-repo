@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* <<<<<<<< primary style >>>>>>>>*/
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #272727;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #686868;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+/* <<<<<<<<<<<< header section start >>>>>>>>>>>> */
+header {
+    background: url(../images/header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.banner-title {
+    text-align: right;
+    padding: 200px 200px 200px 0;
+}
+
+.banner-title h1 {
+    font-size: 65px;
+    
+    margin-bottom: 20px;
+}
+
+.banner-title h1>span {
+    color: #cc8e35;
+    font-size: 80px;
+}
+
+.banner-title p {
+    font-size: 18px;
+    
+    margin-bottom: 40px;
+}
+
+.banner-title button {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    background: #f9ca24;
+    border: none;
+    padding: 18px 40px;
+    border-radius: 10px;
+
+}
+/* <<<<<<<<<<<< end section #header  >>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<< start section #course-specialitye  >>>>>>>>>>>> */
+.course-speciality{
+    display: flex;
+    gap: 100px;
+    padding: 120px 0;
+}
+.about-course{
+    width: 40%;
+    margin-top: 150px;
+}
+.about-course h2{
+    font-size: 60px;
+}
+.about-course p{
+    font-size: 18px;
+    margin: 30px 0 20px 0;
+}
+.about-course span{
+    display: block;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #686868;
+    margin-bottom: 10px;
+}
+.about-course .fa-check{
+    color: #e056fd;
+    font-size: 22px;
+    margin-right: 10px;
+}
+/* <<<<<<<<<<<< end section #course-specialitye  >>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<< start section #our-lesson  >>>>>>>>>>>> */
+
+.our-lesson{
+    margin-bottom: 100px;
+}
+.our-lesson h2{
+    font-size: 50px;
+    text-align: center;
+}
+.lession-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.lession-details .content-icon{
+    width: 40%;
+    margin: auto;
+}
+.lession-details .content h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px 0 30px;
+}
+.lession-details .content p{
+    font-size: 18px;
+}
+/* <<<<<<<<<<<< end section #our-lesson  >>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<< start section #learn-more  >>>>>>>>>>>> */
+
+.learn-more{
+    height: 300px;
+    background: url(../images/top-5-programming-languages-hero1579801696278282.jpg), 
+    linear-gradient(to left, rgba(186, 220, 88, 0),rgb(48 177 49));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0 0 70px;
+    border-radius: 10px;
+    
+}
+.learn-more h2{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.learn-more a{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    background: #f9ca24;
+    text-decoration: none;
+    padding: 18px 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* <<<<<<<<<<<< end section #learn-more  >>>>>>>>>>>> */
+
+/* <<<<<<<<<<<< start section #footer  >>>>>>>>>>>> */
+
+footer{
+    margin-top: 200px;
+    background: #f9ca24;
+    padding: 100px 0 50px 0;
+}
+.section-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us h2{
+    font-size: 40px;
+}
+.about-us p{
+    font-size: 18px;
+    margin:20px 0;
+}
+.about-us span{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #686868;
+}
+.follow-us{
+    margin-top: 40px;
+}
+.follow-us span{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #272727;
+}
+.follow-us i{
+    margin: 0 10px;
+}
+
+.subscribe h2{
+    font-size: 30px;
+
+}
+.subscribe input{
+    background: transparent;
+    border: 1px solid #686868;
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    border-radius: 5px;
+    margin: 20px 0 15px 0;
+}
+.subscribe input::placeholder{
+    font-size: 16px;
+}
+.subscribe button{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    background: #686868;
+    color: #f9ca24;
+    text-decoration: none;
+    padding: 18px 40px;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+}
+
+    /* End */
